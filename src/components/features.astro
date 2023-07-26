@@ -1,0 +1,69 @@
+---
+// @ts-ignore
+import { Icon } from "astro-icon";
+
+const features = [
+  {
+    title: "Announcement",
+    description:
+      "Exam Form, Last date for Practical checking, timings and list goes on. A Single group for all of these announcements ",
+    icon: "bx:bxs-briefcase",
+  },
+  {
+    title: "Job and Internships",
+    description:
+      "Jobs and internship opporunity in that same Whatsapp UI, Boring",
+    icon: "bx:bxs-window-alt",
+  },
+  {
+    title: "Students Announcements",
+    description:
+      "Students are dull, and so to bring the announcements to more ground ",
+    icon: "bx:bxs-data",
+  },
+  {
+    title: "Academic",
+    description:
+      "Check marks, get marksheet",
+    icon: "bx:bxs-bot",
+  },
+  {
+    title: "Forms",
+    description:
+      "Fill all your forms in here",
+    icon: "bx:bxs-file-find",
+  },
+  {
+    title: "Community",
+    description:
+      "Creating students or faculties community with more betterment",
+    icon: "bx:bxs-user",
+  },
+];
+---
+
+<div class="mt-16 md:mt-0">
+  <h2 class="text-4xl lg:text-5xl font-bold lg:tracking-tight">
+     Better and fun as all the engineers want
+  </h2>
+  <p class="text-lg mt-4 text-slate-600">
+    Astro comes batteries included. It takes the best parts of state-of-the-art
+    tools and adds its own innovations.
+  </p>
+</div>
+
+<div class="grid sm:grid-cols-2 md:grid-cols-3 mt-16 gap-16">
+  {
+    features.map((item) => (
+      <div class="flex gap-4 items-start">
+        <div class="mt-1 bg-black rounded-full  p-2 w-8 h-8 shrink-0">
+          <Icon class="text-white" name={item.icon} />
+        </div>
+        <div>
+          <h3 class="font-semibold text-lg">{item.title}</h3>{" "}
+          <p class="text-slate-500 mt-2 leading-relaxed">{item.description}</p>
+        </div>
+      </div>
+    ))
+  }
+</div>
