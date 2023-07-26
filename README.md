@@ -1,127 +1,101 @@
-# Astroship - Astro Starter Template 🛸
+# Gizmo - Your All-in-One College App
 
-Astroship is a starter template for startups, marketing websites, landing pages & blog. Built with Astro & TailwindCSS.
+![Gizmo Logo](gizmo_logo.png)
 
-This Free Template is sponsored by [Web3Templates](https://web3templates.com)
+## Table of Contents
 
-## Live Demo
+- [Introduction](#introduction)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-### [https://astroship.web3templates.com/](https://astroship.web3templates.com/)
+## Introduction
 
-### [Download Astroship Template](https://web3templates.com/templates/astroship-starter-website-template-for-astro)
+Gizmo is a powerful and user-friendly application designed to streamline college life by consolidating all essential college-related functionalities into one convenient app. With Gizmo, students, faculty, and staff can access announcements, forms, events, and much more in a centralized platform, enhancing communication and productivity within the college community.
 
-## Deploy this template
+This README provides an overview of Gizmo's features, installation instructions, and usage guidelines to help you get started with the app.
 
-You can instantly clone this to your GitHub and deploy the site by clicking the below buttons to deploy to your chosen providers!
+## Features
 
-Click here to deploy on Vercel:
+1. **Announcements:** Stay up-to-date with the latest college news, events, and important announcements right from the app.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsurjithctly%2Fastroship&project-name=astroship&repository-name=astroship&demo-title=Astroship%20-%20Astro%20Starter%20Template&demo-description=Astroship%20is%20a%20starter%20template%20for%20startups%2C%20marketing%20websites%20%26%20landing%20pages.%20Built%20with%20Astro%2C%20TailwindCSS&demo-url=https%3A%2F%2Fastroship.web3templates.com%2F&demo-image=https%3A%2F%2Fuser-images.githubusercontent.com%2F1884712%2F200831799-10ef2456-a02e-4068-b580-4b5326f0b33b.png)
+2. **Forms and Documents:** Access and fill out various college forms and documents online, eliminating the need for physical paperwork.
 
-Click here to deploy on Netlify:
+3. **Events Calendar:** View and manage college events and activities through the integrated calendar feature.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/surjithctly/astroship)
+4. **Customizable Dashboard:** Personalize your dashboard by selecting preferred widgets and rearranging them for a personalized experience.
 
-## Preview
+5. **Push Notifications:** Receive timely notifications about deadlines, upcoming events, and college announcements.
 
-![image](https://user-images.githubusercontent.com/1884712/200831799-10ef2456-a02e-4068-b580-4b5326f0b33b.png)
+6. **Collaboration Tools:** Collaborate with other students and faculty members on projects, assignments, and study groups.
 
-### Pagespeed Score
+7. **Resource Library:** Access a centralized repository of academic resources, lecture notes, and study materials.
 
-[![pagespeed](https://user-images.githubusercontent.com/1884712/210250214-7aa98167-7993-4b90-8138-326b8fa0c223.png)](https://pagespeed.web.dev/report?url=https%3A%2F%2Fastroship.web3templates.com%2F)
+8. **Interactive Maps:** Easily navigate around the college campus with interactive maps and building layouts.
 
+9. **Feedback and Suggestions:** Provide feedback and suggestions to the college administration to improve the college experience.
+
+10. **Dark Mode:** Toggle to a dark mode interface for comfortable app usage during low-light conditions.
 
 ## Installation
 
-If you are reading this on github, you can click on the "Use this template" button above to create a new repository from astroship to your account. Then you can do a `git clone` to clone it to your local system.
+Before installing Gizmo, ensure you have the following prerequisites:
 
-Alternatively, you can clone the project directly from this repo to your local system.
+- Android/iOS Device or Emulator
+- Node.js (v12 or higher)
+- npm (Node Package Manager)
 
-### 1. Clone the repo
-
-```bash
-git clone https://github.com/surjithctly/astroship.git myProjectName
-# or
-git clone https://github.com/surjithctly/astroship.git .
-```
-
-The `.` will clone it to the current directory so make sure you are inside your project folder first.
-
-### 2. Install Dependencies
+Copy the following commands into your terminal:
 
 ```bash
+git clone https://github.com/saifrahmn/gizmo.git
+cd gizmo
 npm install
-# or
-yarn install
-# or (recommended)
-pnpm install
+Build the app for your desired platform:
 ```
-
-### 3. Start development Server
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or (recommended)
-pnpm dev
-```
 
-### Preview & Build
+npm run build-android   # For Android
+npm run build-ios       # For iOS
+
+Run the app on your connected device or emulator:
+```
 
 ```bash
-npm run preview
-npm run build
-# or
-yarn preview
-yarn build
-# or (recommended)
-pnpm preview
-pnpm build
+
+npm run start
 ```
 
-We recommend using [pnpm](https://pnpm.io/) to save disk space on your computer.
+## Usage
 
-### Other Commands
+#### Upon successful installation, open Gizmo on your device. You will be prompted to log in using your college credentials. Once logged in, explore the app's various features:
 
-```bash
-pnpm astro ...
-pnpm astro add
-pnpm astro --help
-```
+    Check the announcements section for the latest news and updates.
+    Access and fill out forms and documents in the corresponding section.
+    Use the events calendar to keep track of important college events.
+    Customize your dashboard by adding or removing widgets as per your preferences.
+    Collaborate with others using the app's built-in collaboration tools.
+    Access the resource library for study materials and academic resources.
+    Explore the interactive maps to navigate the college campus easily.
 
-## Project Structure
+## Contributing
 
-Inside of your Astro project, you'll see the following folders and files:
+#### We welcome contributions to enhance Gizmo and make it even more efficient. To contribute, follow these steps:
 
-```
-/
-├── public/
-│   └── ...
-├── src/
-│   ├── components/
-│   │   └── ...
-│   ├── layouts/
-│   │   └── ...
-│   └── pages/
-│       └── ...
-└── package.json
-```
+    Fork the repository from https://github.com/saifrahmn/gizmo.
+    Create a new branch with a descriptive name for your feature/fix.
+    Make your changes and commit them with clear messages.
+    Push the changes to your forked repository.
+    Create a pull request (PR) from your forked repository to the main Gizmo repository.
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+Please ensure that your PR includes a detailed description of the changes made and the purpose they serve.
+License
 
-Any static assets, like images, can be placed in the `public/` directory.
+Gizmo is released under the MIT License. Feel free to use, modify, and distribute the app following the terms of the license.
 
-## TailwindCSS
+Thank you for choosing Gizmo! We hope this app simplifies your college experience and fosters better communication within your college community. If you encounter any issues or have suggestions for improvement, please let us know via the issue tracker on GitHub.
 
-TailwindCSS is already configured in this repo, so you can start using it without any installation.
-
-## Credits
-
-[Hero Illustration](https://www.figma.com/community/file/1108400791662599811) by [Streamline](https://www.streamlinehq.com/)
-
-## 👀 Want to learn more?
-
-Feel free to check out [Astro Docs](https://docs.astro.build) or jump into our [Discord Chat](https://web3templates.com/discord).
-
-[![Built with Astro](https://astro.badg.es/v1/built-with-astro.svg)](https://astro.build)
+### Happy Gizmo-ing! 🚀
